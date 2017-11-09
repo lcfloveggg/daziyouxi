@@ -1,0 +1,117 @@
+html body {
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+input{
+    outline: none;
+    border: none;
+}
+
+.zhubox {
+    width: 1500px;
+    height: 758px;
+    margin: 0 auto;
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    position: relative;
+}
+
+.zuobox {
+    width: 1200px;
+    height: 100%;
+    float: left;
+}
+
+.youbox {
+    width: 300px;
+    height: 100%;
+    /*background: orangered;*/
+    float: right;
+}
+
+.zimu {
+    width: 100px;
+    height: 100px;
+    /*border: 1px solid red;*/
+    position: absolute;
+}
+
+.defen {
+    color:#000;
+    margin: 20px;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+}
+
+.guanka {
+    margin: 20px;
+    font-size: 24px;
+    text-align: center;
+    color:#000;
+    position: relative;
+}
+
+.taoxin {
+    margin: 20px;
+    font-size: 24px;
+    text-align: center;
+    color:#000;
+    position: relative;
+}
+
+.anniu {
+    width: 30%;
+    margin: 20px 5px 5px 5px;
+    height: 50px;
+    float: left;
+    font-size: 16px;
+    line-height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.kaishi {
+    background: lawngreen;
+}
+
+.zanting {
+    background: yellow;
+}
+
+.jieshu {
+    background: #ffa9a7;
+}
+.chengji{
+    /*height: 57px;*/
+    color:#000;
+    text-align: center;
+    line-height: 54px;
+    background-size: contain;
+    position: absolute;
+    bottom: 3px;
+    left:60%;
+}
+.dengji{
+    /*height: 57px;*/
+    color:#000;
+    text-align: center;
+    line-height: 54px;
+    background-size: contain;
+    position: absolute;
+    bottom: 3px;
+    left:60%;
+}
+
+.life{
+    /*height: 57px;*/
+    color:#000;
+    text-align: center;
+    line-height: 57px;
+    background-size: contain;
+    position: absolute;
+    bottom: 2px;
+    left:60%;
+}
