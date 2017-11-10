@@ -35,7 +35,7 @@ class Game {
             var randomLeft = Math.floor(Math.random() * 900);
         } while (this._checkleft(randomLeft));
         let randomTop = -Math.floor(Math.random() * 100);
-        newdiv.style.background = "url(imgs/" + zimu + ".jpg) center no-repeat";
+        newdiv.style.background = "url(img/" + zimu + ".jpg) center no-repeat";
         newdiv.style.left = randomLeft + "px";
         newdiv.style.top = randomTop + "px";
         this.zuobox.appendChild(newdiv);
